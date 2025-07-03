@@ -58,7 +58,7 @@ for d in groups:
   title = str(d)
   buna = {
     title: {
-      'from': 'https://t.me/arada08',
+      'from': 'https://t.me/seneselasa30',
       'to': d,
       'offset': 1,
     }

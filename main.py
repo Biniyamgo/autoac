@@ -63,7 +63,7 @@ async def forward_job():
 
     while (value):
       error_occured = False
-      number = [2]
+      number = [3]
       for num in number:
         for forward in forwards:
           from_chat, to_chat, offset = get_forward(forward)

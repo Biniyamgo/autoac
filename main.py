@@ -63,7 +63,7 @@ async def forward_job():
 
     while (value):
       error_occured = False
-      number = [5]
+      number = [1]
       for num in number:
         for forward in forwards:
           from_chat, to_chat, offset = get_forward(forward)
@@ -80,7 +80,7 @@ async def forward_job():
             try:
 
               #print(message.id, 'binii')
-              if message.id == num:
+              if message.id == 7:
 
                 await client.forward_messages(intify(to_chat), message)
                 last_id = str(message.id)
